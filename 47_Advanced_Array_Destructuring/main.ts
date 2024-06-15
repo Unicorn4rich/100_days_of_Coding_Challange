@@ -29,3 +29,4 @@ console.log(second_Laptop);
 // jisme products ka array hai jisme har aik product ka object shamil hai jisme name, price, aur category properties hain.
 // Ab hamen sab se sasta or sabse mehenga product display karna hai. Is ke liye ham array destructuring ka
 // istemal kar sakte hain.
+

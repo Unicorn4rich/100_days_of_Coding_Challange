@@ -18,3 +18,7 @@ console.log(final)               // Output 54
 
 // Note
 // Rectangle ka area calculate karne ke liye width or hieght ke parameter ko multiply karty hain...
+
+
+
+

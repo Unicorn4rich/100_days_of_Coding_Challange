@@ -23,3 +23,7 @@ let smartphone: phone = {
 };
 
 console.log(smartphone);
+
+
+
+

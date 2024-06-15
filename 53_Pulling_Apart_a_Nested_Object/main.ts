@@ -19,3 +19,6 @@ let programmer_skills = {
 
   console.log(`Language: ${languages[0]}, Framework: ${frameworks[0]}, Tool: ${tools[0]}`);
 
+
+
+

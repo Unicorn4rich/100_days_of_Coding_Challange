@@ -1,8 +1,16 @@
 "use strict";
-// Q50_ Multiline Template Literals: Use template literals to create a multiline string that describes your ideal day.
-// Include at least three different activities.
-let ideal_Day = `My name is shoaib and i am from karachi,
-1. I want to be the best developer,
-2. I want to create something like Twitter or Facebook and contribute something meaningful to the world,
-2. And speacialy somthing do for pakistan`;
-console.log(ideal_Day);
+// Q54 - Making Flexible Object Keys: Learn how to set up a list where you can change the name of each section
+// based on what you need at that moment, like adjusting labels based on user choices.
+function Flexible(key, value) {
+    let felxi_Object = {};
+    felxi_Object[key] = value;
+    return felxi_Object;
+}
+let printing = Flexible("name", "shoaib");
+console.log(printing);
+// Notes
+// Record<string, string> 
+// isko utility type, kaha jata hai ye apne andar key or values dono string mein legi....
+// Getting_in_Object[key] = value;
+// is ko dynamic property kehty hain jo aik value ko object ke andar squire brackets mein key bnati hai or dosri
+// value ko us key ki crossponding value bnati hai is tarhn ye key value pairs ban jate hain...
